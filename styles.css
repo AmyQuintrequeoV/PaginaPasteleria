@@ -1,0 +1,278 @@
+
+.bg-image {
+    background-image: url('img/fondo_principal.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-ver-catalogo {
+    background-color: #ffc0cb; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; 
+    font-size: 1.5rem; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-ver-catalogo:hover {
+    background-color: #ff7eb9; 
+}
+
+.ingredientes {
+    color: #fff;
+}
+
+.cuadrado-imagen {
+    height: 150px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.btn-rosa-pastel {
+    background-color: #ff69b4; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; 
+    font-size: 1.5rem; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-rosa-pastel:hover {
+    background-color: #ff1493; 
+}
+
+.bg-rosa-pastel {
+    background-color: #ffc0cb;
+}
+
+.text-morado-pastel {
+    color: #9370db;
+}
+
+.bg-morado-pastel {
+    background-color: #9370db;
+    color: #ffc0cb;
+}
+
+header {
+    background-color: #ffc0cb; 
+    padding: 20px 0;
+}
+
+nav ul li a {
+    color: #9370db; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ff1493; 
+}
+
+.bg-image-1 {
+    background-image: url('img/cake1.jpg');
+}
+
+.bg-image-2 {
+    background-image: url('img/cake2.jpg');
+}
+
+.bg-image-3 {
+    background-image: url('img/cake3.jpg');
+}
+
+.bg-image-4 {
+    background-image: url('img/cake4.jpg');
+}
+
+.bg-image-5 {
+    background-image: url('img/cake5.jpg');
+}
+
+.bg-image-6 {
+    background-image: url('img/cake6.jpg');
+}
+
+.cuadrado-imagen {
+    width: 100%; 
+    padding-top: 100%; 
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.cuadrado-imagen-1,
+.cuadrado-imagen-2,
+.cuadrado-imagen-3,
+.cuadrado-imagen-4,
+.cuadrado-imagen-5,
+.cuadrado-imagen-6 {
+    height: 150px; 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc0cb; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: #ff7eb9; 
+}
+
+#contacto {
+    background-image: url('img/fondo_contacto.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 100px 0;
+}
+
+.rectangulo-contacto {
+    background-color: rgba(255, 192, 203, 0.7); 
+    padding: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffc0cb; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+#oferta .container {
+    display: flex; 
+    align-items: center; 
+}
+
+#oferta .texto-oferta {
+    background-color: #ffc3cc; 
+    padding: 120px; 
+    border-radius: 8px; 
+    margin-left: 90px; 
+    flex: 1; 
+}
+
+#oferta .img-fluid {
+    border-radius: 8px; 
+    width: 120%; 
+    height: auto; 
+}
+
+#oferta .texto-oferta p {
+    color: #fff; 
+    font-size: 1.3rem; 
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+#oferta .btn-ordenar {
+    background-color: #ff69b4; 
+    color: #fff; 
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px; 
+    font-size: 1.5rem; 
+    transition: background-color 0.3s ease; 
+}
+
+#oferta .btn-ordenar:hover {
+    background-color: #ff1493; 
+}
+#reviews {
+    text-align: center; 
+    position: relative; 
+}
+
+#carouselReviews {
+    position: relative;
+    z-index: 1; 
+}
+
+.carousel-inner {
+    z-index: 2; 
+}
+
+
+#solicitud {
+    background-color: #f9f9f9; 
+    padding: 50px 0; 
+}
+
+#solicitud form {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+#solicitud .form-label {
+    font-weight: bold; 
+    color: #9370db; 
+}
+
+#solicitud .form-label span {
+    color: #ff69b4; 
+}
+
+#solicitud .btn-morado-pastel {
+    background-color: #9370db; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; 
+    font-size: 1.5rem; 
+    transition: background-color 0.3s ease; 
+}
+
+#solicitud .btn-morado-pastel:hover {
+    background-color: #7a5ca6; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barcelony',cursive; 
+}
+
+body, p, input, label, button {
+    font-family: 'Gotham Pro', sans-serif; 
+    font-weight: normal; 
+}
+
+
+strong {
+    font-weight: bold; 
+}
+
+.card {
+    background-color: #ffc0cb; 
+    padding: 30px; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    border: none; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    max-height: 580px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
